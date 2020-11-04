@@ -6,7 +6,7 @@ const end = 12;
 let tableString = '';
 
 for (let tableDigit = start; tableDigit <= end; tableDigit++) {
-  const lastValue = (tableDigit * 12);
+  const lastValue = (tableDigit * end);
 
   for (var nthValue = tableDigit; nthValue <= lastValue; nthValue = nthValue + tableDigit)
   {
